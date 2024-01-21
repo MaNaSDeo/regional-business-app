@@ -1,0 +1,24 @@
+<div class="banner" id="banner" data-image="{{ block.settings.image | img_url: 'master' }}" data-image2="{{ block.settings.image2 | img_url: 'master' }}">
+  <button id="change-image">Change Image</button>
+</div>
+
+{% schema %}
+  {
+    "name": "Image banner",
+    "target": "section",
+    "stylesheet": "banner.css",
+    "javascript": "banner.js",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Alternative Image"
+      }
+    ]
+  }
+{% endschema %}

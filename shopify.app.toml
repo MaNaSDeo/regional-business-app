@@ -2,7 +2,7 @@
 
 name = "regional-business-app"
 client_id = "f879a52fc839f6217527df45fd27d9eb"
-application_url = "https://saving-agenda-charter-disclaimer.trycloudflare.com"
+application_url = "https://rap-guards-fax-feels.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products,read_products,read_orders"
 
 [auth]
 redirect_urls = [
-  "https://saving-agenda-charter-disclaimer.trycloudflare.com/auth/callback",
-  "https://saving-agenda-charter-disclaimer.trycloudflare.com/auth/shopify/callback",
-  "https://saving-agenda-charter-disclaimer.trycloudflare.com/api/auth/callback"
+  "https://rap-guards-fax-feels.trycloudflare.com/auth/callback",
+  "https://rap-guards-fax-feels.trycloudflare.com/auth/shopify/callback",
+  "https://rap-guards-fax-feels.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
