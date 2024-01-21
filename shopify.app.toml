@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "regional-business-app"
+client_id = "f879a52fc839f6217527df45fd27d9eb"
+application_url = "https://saving-agenda-charter-disclaimer.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,read_products,read_orders"
+
+[auth]
+redirect_urls = [
+  "https://saving-agenda-charter-disclaimer.trycloudflare.com/auth/callback",
+  "https://saving-agenda-charter-disclaimer.trycloudflare.com/auth/shopify/callback",
+  "https://saving-agenda-charter-disclaimer.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "react-connection01.myshopify.com"
